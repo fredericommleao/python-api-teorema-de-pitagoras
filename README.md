@@ -19,21 +19,25 @@ e no diretorio raiz, está presente o arquivo main.py que é responsável pela i
 abaixo segue exemplos de como utilizar os endpoints da aplicação:
 
 
-##http://127.0.0.1:5000/hipotenusa
+### POST:  http://127.0.0.1:5000/hipotenusa
+request que deve ser passada no body:
+```json
 {
     "cateto_oposto": 25,
     "cateto_adjacente": 33
 }
+```
 
-
-##http://127.0.0.1:5000/cateto_oposto
+### POST: http://127.0.0.1:5000/cateto_oposto
+request que deve ser passada no body:
 {
     "hipotenusa": 7,
     "cateto_adjacente": 6
 }
 
 
-##http://127.0.0.1:5000/cateto_adjacente
+### POST: http://127.0.0.1:5000/cateto_adjacente
+request que deve ser passada no body:
 {
     "hipotenusa": 45,
     "cateto_oposto": 4
