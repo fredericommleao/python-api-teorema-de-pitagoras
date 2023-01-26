@@ -2,7 +2,7 @@
 No desenvolvimento dessa api, eu escolhi o flask por ser mais prático e aparentemente mais tranquilo
 do que o Jdango.
 
-Na organização do projeto eu tentei seguir o primeiro principio do SOLID, estabelecendo classes com responsabilidades unicas
+Na organização do projeto eu tentei seguir o primeiro principio do SOLID, estabelecendo classes com responsabilidades unica,
 além do pytest para as classes de teste, os endpoints foram testados também no postman.
 
 O projeto possui 2 pacotes principais 
