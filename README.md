@@ -30,15 +30,19 @@ request que deve ser passada no body:
 
 ### POST: http://127.0.0.1:5000/cateto_oposto
 request que deve ser passada no body:
+```json
 {
     "hipotenusa": 7,
     "cateto_adjacente": 6
 }
-
+```
 
 ### POST: http://127.0.0.1:5000/cateto_adjacente
 request que deve ser passada no body:
+```json
 {
     "hipotenusa": 45,
     "cateto_oposto": 4
 }
+
+```
